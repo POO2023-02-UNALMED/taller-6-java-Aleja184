@@ -22,7 +22,7 @@ public class Vehiculo {
         this.peso = peso;
         this.traccion = traccion;
         this.fabricante = fabricante;
-        Vehiculo.CantidadVehiculos++;
+        Vehiculo.CantidadVehiculos+=1;
         Vehiculo.fabricantes.add(fabricante);
     }
 
